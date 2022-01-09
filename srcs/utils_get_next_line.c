@@ -6,23 +6,12 @@
 /*   By: mloubet <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/18 10:48:44 by mloubet           #+#    #+#             */
-/*   Updated: 2022/01/09 16:46:13 by mloubet          ###   ########.fr       */
+/*   Updated: 2022/01/09 17:42:39 by mloubet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/so_long.h"
 
-/*
-size_t	ft_strlen(const char *s)
-{
-	size_t	i;
-
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
-}
-*/
 char	*ft_strjoin(const char *s1, const char *s2)
 {
 	int		k;
